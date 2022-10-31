@@ -1,0 +1,4 @@
+function squareOrSquareRoot(array) {
+    return array.map((num)=> Number.isInteger(Math.sqrt(num)) ? Math.sqrt(num) : Math.pow(num, 2));
+  }
+  squareOrSquareRoot([4, 3, 9, 7, 2, 1])//?
